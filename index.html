@@ -9,13 +9,13 @@
 <body>
 
 
-    <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074__340.jpg">
+    <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074__340.jpg" alt="cute puppy to relieve the stress">
     <table class="tags">
         <caption>
             <h1>HTML tags</h1>
             <h2>Form tags</h2>
         </caption>
-
+        <!--HTML validator doesnt allow me to keep caption or <h2> but im not sure how else to keep the text next to the tab. Ideas?-->
         <thead>
             <tr>
                 <th>Tags</th>
@@ -25,46 +25,45 @@
 
         <tbody>
             <tr>
-                <td>&ltinput&gt type="text"</td>
+                <td>&ltinput&gttype="text"</td>
                 <td>Setting type to "text" creates a single row field for text input</td>
             </tr>
             <tr>
                 <td>
-                    &ltinput&gt type="password" </td>
+                    &ltinput&gttype="password" </td>
                 <td>Setting type to "password" creates a single row field that censors text input</td>
             </tr>
             <tr>
-                <td>&ltinput&gt type="number"</td>
+                <td>&ltinput&gttype="number"</td>
                 <td>Setting type to "number" creates a single row field for number input</td>
             </tr>
             <tr>
-                <td>&ltinput&gt type="number"</td>
+                <td>&ltinput&gttype="number"</td>
                 <td>Setting type to "range" creates a slider to select from a range of numbers.</td>
             </tr>
 
             <tr>
-                <td>&ltinput&gt type="range"</td>
+                <td>&ltinput&gttype="range"</td>
                 <td>Setting type to "checkbox" creates a single checkbox which can be paired with other checkboxes</td>
             </tr>
             <tr>
-                <td>&ltinput&gt type="radio"</td>
+                <td>&ltinput&gttype="radio"</td>
                 <td>Setting type to "radio" creates a radio button that can be paired with other radio buttons</td>
             </tr>
 
 
             <tr>
-                <td>&ltinput&gt type="list"</td>
-                <td>Setting type to "list" will pair the &ltinput&gt with a &ltdatalist&gt element&lt/datalist&gt</td>
+                <td>&ltinput&gttype="list"</td>
+                <td>Setting type to "list" will pair the &ltinput&gtwith a &ltdatalist&gtelement&ltdatalist&gt</td>
             </tr>
-            <tfoot>
-                <tr>
 
-                    <td>&ltinput&gt type="submit"</td>
-                    <td>Setting type to "submit" creates a submit button</td>
+            <tr>
+
+                <td>&ltinput&gttype="submit"</td>
+                <td>Setting type to "submit" creates a submit button</td>
 
 
-                </tr>
-            </tfoot>
+            </tr>
 
 
         </tbody>
@@ -75,13 +74,16 @@
 
 
     <!--for CSS - ow do i fix the second table below in terms of the size of the rows themselves?-->
+
     <table class="commands">
+
         <thead>
             <caption>
-                <h1>Terminal Commands
-                </h1>
+                <h2>Terminal Commands</h2>
                 <h2>Git Hub</h2>
             </caption>
+        </thead>
+
         </thead>
 
         <tbody>
@@ -144,6 +146,7 @@
                 <td>Add commit all changes</td>
             </tr>
         </tbody>
+
         <tfoot>
             <tr>
 
